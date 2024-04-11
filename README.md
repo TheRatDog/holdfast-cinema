@@ -1,5 +1,6 @@
 # holdfast-cinema
 All the assets you need for creating your own Cinema in Holdfast: Nations At War
+A demo map is available at https://steamcommunity.com/sharedfiles/filedetails/?id=3213923173
 
 # Requirements
 * A Holdfast Server
@@ -17,30 +18,36 @@ All the assets you need for creating your own Cinema in Holdfast: Nations At War
 9.  Install your mod via your server config & load into an **Army Battlefield** Map Rotation running modmap
 
 # FAQ
-- My video is too bright/dark!
+My video is too bright/dark!
   
-Adjust the smoothness slider of the HDScreen_On material.
-
-- Why can I see the video but my Linux friend can't?
+- Adjust the smoothness slider of the HDScreen_On material.
   
-You need to transcode your video and select VP8 as the Codec. Refer to step 5.
 
-- Why is my play button missing materials?
+Why can I see the video but my Linux friend can't?
   
-Refer to Step 7, or Issue #1.
-
-- I can't build my mod!
+- You need to transcode your video and select VP8 as the Codec. Refer to step 5.
   
-Check the console tab on Unity and try to rectify the errors.
 
-- I can't upload my mod!
+Why is my play button missing materials?
   
-Ensure you have Steam open before opening your Unity project.
+- Refer to Step 7, or Issue #1.
+  
 
-- Why is my theatre too bright?
+I can't build my mod!
+  
+- Check the console tab on Unity and try to rectify the errors.
+  
 
-Change the weather preset to forest_clear_night
+I can't upload my mod!
+  
+- Ensure you have Steam open before opening your Unity project.
+  
 
-- Why is my movie ending early?
+Why is my theatre too bright?
 
-Make sure you set your rounds to be of unlimited length using round_time_minutes -1
+- Change the weather preset to forest_clear_night
+  
+
+Why is my movie ending early?
+
+- Make sure you set your rounds to be of unlimited length using round_time_minutes -1
